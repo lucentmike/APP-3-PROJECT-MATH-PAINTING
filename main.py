@@ -14,7 +14,6 @@ while True:
             break
         except:
             print("That is an invalid entry")
-            pass
 
     while True:
         try:
@@ -22,7 +21,6 @@ while True:
             break
         except:
             print("That is an invalid entry")
-            pass
 
     while True: 
         canvas_color = input('Choose the canvas color, black or white: ')
@@ -32,8 +30,7 @@ while True:
             break
         else:
             print("That is an invalid entry")
-            pass
-
+            
     break
 
 #Create the canvas using user inputs
@@ -55,9 +52,7 @@ while True:
         elif shape_type.lower() == 'quit':
             break
         else:
-            print("That is an invalid entry") 
-            pass 
-
+            print("That is an invalid entry")  
 
     #If rectangle ask for rectangle data and draw
     if shape_type.lower() == 'rectangle':
